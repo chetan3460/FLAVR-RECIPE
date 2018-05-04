@@ -7,21 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F18BAF6209C1CCC00F12606 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F18BAF5209C1CCC00F12606 /* LogInViewController.swift */; };
+		8F18BAF8209C25FF00F12606 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F18BAF7209C25FF00F12606 /* CustomTextField.swift */; };
+		8F18BAFA209C2D4900F12606 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F18BAF9209C2D4900F12606 /* SignUpViewController.swift */; };
+		8F18BAFC209C7B7C00F12606 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F18BAFB209C7B7C00F12606 /* CustomNavigationController.swift */; };
+		8F18BAFF209C80C100F12606 /* flavr_icons in Resources */ = {isa = PBXBuildFile; fileRef = 8F18BAFE209C80C000F12606 /* flavr_icons */; };
+		8FDD0C5E209ACF700043DE15 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD0C5D209ACF700043DE15 /* CustomButton.swift */; };
+		8FDD0C60209AD4AA0043DE15 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD0C5F209AD4AA0043DE15 /* CustomLabel.swift */; };
 		8FE71B742098921C008C45F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE71B732098921C008C45F2 /* AppDelegate.swift */; };
-		8FE71B762098921C008C45F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE71B752098921C008C45F2 /* ViewController.swift */; };
 		8FE71B792098921C008C45F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE71B772098921C008C45F2 /* Main.storyboard */; };
 		8FE71B7B2098921E008C45F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE71B7A2098921E008C45F2 /* Assets.xcassets */; };
 		8FE71B7E2098921E008C45F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE71B7C2098921E008C45F2 /* LaunchScreen.storyboard */; };
+		8FE71B8620989680008C45F2 /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE71B852098967F008C45F2 /* Chameleon.framework */; };
+		8FE71B8720989680008C45F2 /* Chameleon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE71B852098967F008C45F2 /* Chameleon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FE71B8B20989F67008C45F2 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE71B8A20989F67008C45F2 /* CustomColor.swift */; };
+		8FE71B8E2098A1FB008C45F2 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE71B8D2098A1FB008C45F2 /* LoginSignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8FE71B8820989680008C45F2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8FE71B8720989680008C45F2 /* Chameleon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8F18BAF5209C1CCC00F12606 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		8F18BAF7209C25FF00F12606 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8F18BAF9209C2D4900F12606 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8F18BAFB209C7B7C00F12606 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		8F18BAFE209C80C000F12606 /* flavr_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flavr_icons; sourceTree = "<group>"; };
+		8FDD0C5D209ACF700043DE15 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8FDD0C5F209AD4AA0043DE15 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		8FE71B702098921C008C45F2 /* FLAVR-RECIPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAVR-RECIPE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE71B732098921C008C45F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FE71B752098921C008C45F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FE71B782098921C008C45F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FE71B7A2098921E008C45F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE71B7D2098921E008C45F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE71B7F2098921E008C45F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE71B852098967F008C45F2 /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
+		8FE71B8A20989F67008C45F2 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		8FE71B8D2098A1FB008C45F2 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +62,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE71B8620989680008C45F2 /* Chameleon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F18BAFD209C803E00F12606 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8F18BAFE209C80C000F12606 /* flavr_icons */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		8FE71B672098921C008C45F2 = {
 			isa = PBXGroup;
 			children = (
 				8FE71B722098921C008C45F2 /* FLAVR-RECIPE */,
 				8FE71B712098921C008C45F2 /* Products */,
+				8FE71B852098967F008C45F2 /* Chameleon.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,38 @@
 		8FE71B722098921C008C45F2 /* FLAVR-RECIPE */ = {
 			isa = PBXGroup;
 			children = (
+				8FE71B8C2098A1C9008C45F2 /* View Controller */,
+				8FE71B8920989F47008C45F2 /* Custom */,
 				8FE71B732098921C008C45F2 /* AppDelegate.swift */,
-				8FE71B752098921C008C45F2 /* ViewController.swift */,
 				8FE71B772098921C008C45F2 /* Main.storyboard */,
 				8FE71B7A2098921E008C45F2 /* Assets.xcassets */,
 				8FE71B7C2098921E008C45F2 /* LaunchScreen.storyboard */,
 				8FE71B7F2098921E008C45F2 /* Info.plist */,
+				8F18BAFD209C803E00F12606 /* Icons */,
 			);
 			path = "FLAVR-RECIPE";
+			sourceTree = "<group>";
+		};
+		8FE71B8920989F47008C45F2 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8FE71B8A20989F67008C45F2 /* CustomColor.swift */,
+				8FDD0C5D209ACF700043DE15 /* CustomButton.swift */,
+				8FDD0C5F209AD4AA0043DE15 /* CustomLabel.swift */,
+				8F18BAF7209C25FF00F12606 /* CustomTextField.swift */,
+				8F18BAFB209C7B7C00F12606 /* CustomNavigationController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8FE71B8C2098A1C9008C45F2 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FE71B8D2098A1FB008C45F2 /* LoginSignUpViewController.swift */,
+				8F18BAF5209C1CCC00F12606 /* LogInViewController.swift */,
+				8F18BAF9209C2D4900F12606 /* SignUpViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +141,7 @@
 				8FE71B6C2098921C008C45F2 /* Sources */,
 				8FE71B6D2098921C008C45F2 /* Frameworks */,
 				8FE71B6E2098921C008C45F2 /* Resources */,
+				8FE71B8820989680008C45F2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE71B7E2098921E008C45F2 /* LaunchScreen.storyboard in Resources */,
+				8F18BAFF209C80C100F12606 /* flavr_icons in Resources */,
 				8FE71B7B2098921E008C45F2 /* Assets.xcassets in Resources */,
 				8FE71B792098921C008C45F2 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE71B762098921C008C45F2 /* ViewController.swift in Sources */,
+				8F18BAF8209C25FF00F12606 /* CustomTextField.swift in Sources */,
+				8FDD0C5E209ACF700043DE15 /* CustomButton.swift in Sources */,
+				8F18BAFA209C2D4900F12606 /* SignUpViewController.swift in Sources */,
+				8F18BAFC209C7B7C00F12606 /* CustomNavigationController.swift in Sources */,
+				8FDD0C60209AD4AA0043DE15 /* CustomLabel.swift in Sources */,
+				8F18BAF6209C1CCC00F12606 /* LogInViewController.swift in Sources */,
 				8FE71B742098921C008C45F2 /* AppDelegate.swift in Sources */,
+				8FE71B8E2098A1FB008C45F2 /* LoginSignUpViewController.swift in Sources */,
+				8FE71B8B20989F67008C45F2 /* CustomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 695TA9VKYB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +380,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 695TA9VKYB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "FLAVR-RECIPE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
